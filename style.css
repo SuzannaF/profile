@@ -1,0 +1,103 @@
+/*font-family: 'Roboto', sans-serif;*/
+
+body {
+  background-color: #F8F5F2;
+}
+
+h1 {
+  color: #928779;
+  font-size: 32px;}
+
+h2 {
+  color: #A28E53;
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Varela', sans-serif;
+  color: #B4A06A;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Varela', sans-serif;
+  text-decoration: none;
+  color: #A59E8C;
+  font-size: 17px;
+}
+
+a:hover {
+  color: #66635B;
+}
+
+ul li {
+  display: inline;
+}
+
+/****      ID SELECTORS     *****/
+#intro {
+  margin-bottom: 40px;
+}
+
+
+/******** CLASS SELECTORS **************/
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: #EDECE8;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-dim-gray {
+  text-decoration: none;
+  background-color: #A59E8C;
+  color: #EDECE8;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 5%;
+}
+
+.list-inline {
+  padding: 0;
+}
+
+/**** MEDIA QUERIES ****/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
